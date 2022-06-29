@@ -1,0 +1,31 @@
+:root {
+    --pinks-moth: #f5c7be;
+    --strong-green: #02442b;
+    --soft-green: #125b42;
+    --brown-cake: #af8843;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+header {
+    min-width: 320px;
+    height: 100px;
+}
+.main-header_nav {
+    display: flex;
+}
+.main-header_nav button {
+    background-color: var(--pinks-moth);
+    border-radius: 5px;
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
