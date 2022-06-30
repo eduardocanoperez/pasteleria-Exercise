@@ -1,41 +1,17 @@
-:root {
-    --pinks-moth: #f5c7be;
-    --strong-green: #02442b;
-    --soft-green: #125b42;
-    --brown-cake: #af8843;
-}
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 62.5%;
-    font-family: sans-serif;
-    background-color: var(--pinks-moth);
 }
-header {
-    min-width: 320px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+nav {
+    display: flex; 
+    min-width: 320px;  
 }
-.main-header_nav {
+nav 
+.nav-righ {
     display: flex;
-    
-}
-.main-header_nav
-button {
-    background-color: var(--soft-green);
-    border-radius: 5px;
-    text-decoration: none;
-    border: none;
-}
-header
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    margin-top: 20px;
+    justify-content: end;
 }
