@@ -6,6 +6,12 @@
 html {
     font-size: 62.5%;
 }
+body {
+    background-color: #6A58D9; 
+}
+header {
+    min-width: 320px;
+}
 nav {
     display: flex; 
     min-width: 320px;  
@@ -14,4 +20,61 @@ nav
 .nav-righ {
     display: flex;
     justify-content: end;
+    list-style: none;
+}
+nav 
+.nav-left {
+    list-style: none;
+}
+header 
+h1 {
+    color: black;
+}
+nav
+.nav-left
+.nav-button__menu {
+    background-color: #A9AAE8;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 27px;
+    border-radius: 5px;
+}
+nav
+.nav-righ
+.nav-button__tema {
+    background-color: #A9AAE8;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 27px;
+    border-radius: 5px;
+}
+nav
+.nav-righ
+.nav-button__notif {
+    background-color: #A9AAE8;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 27px;
+    border-radius: 5px;
+}
+nav
+.nav-righ
+.nav-button__carrito {
+    background-color: #A9AAE8;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 27px;
+    border-radius: 5px;
 }
