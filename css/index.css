@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Noto Sans', sans-serif;
 }
 body {
     background-color: #6A58D9; 
@@ -12,26 +13,30 @@ body {
 header {
     min-width: 320px;
 }
+section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.section-right {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+}
 nav {
     display: flex; 
     min-width: 320px;  
-}
-nav 
+} 
 .nav-righ {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     list-style: none;
-}
-nav 
+} 
 .nav-left {
     list-style: none;
-}
-header 
-h1 {
-    color: black;
-}
-nav
-.nav-left
+} 
 .nav-button__menu {
     background-color: #A9AAE8;
     border: none;
@@ -39,11 +44,9 @@ nav
     height: 35px;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 27px;
+    margin-right: 70px;
     border-radius: 5px;
 }
-nav
-.nav-righ
 .nav-button__tema {
     background-color: #A9AAE8;
     border: none;
@@ -51,30 +54,93 @@ nav
     height: 35px;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 27px;
     border-radius: 5px;
 }
-nav
-.nav-righ
 .nav-button__notif {
     background-color: #A9AAE8;
     border: none;
     width: 35px;
     height: 35px;
+    margin-left: 10px;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 27px;
     border-radius: 5px;
 }
-nav
-.nav-righ
 .nav-button__carrito {
     background-color: #A9AAE8;
     border: none;
     width: 35px;
     height: 35px;
+    margin-left: 10px;
+    margin-right: 27px;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 27px;
     border-radius: 5px;
+}
+h1 {
+    color: black;
+    margin-left: 27px;
+    font-size: medium;
+}
+/*main section*/
+main {
+    min-width: 320px;
+    margin-top: 20px;
+}
+.main-input {
+    width: 266px;
+    height: 27px;
+    margin: 0 auto;
+    background-color: #A9AAE8;
+    border-radius: 5px;
+}
+.main-input-container {
+    width: 264px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input 
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #A9AAE8;
+}
+.search-icon {
+    background-image: url('https://fonts.gstatic.com/s/i/materialicons/search/v17/24px.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 20px;
+    opacity: 0.4;
+}
+.main-parraf {
+    margin-left: 27px;
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+main
+.main-categori {
+    width: 100%;
+    margin-top: 10px;
+}
+main
+.main-categori
+ul {
+    list-style: none;
+    display: flex;
+}
+.main-categori
+ul
+li {
+    width: 32px;
+    height: 32px;
+    background-color: #A9AAE8;
 }
