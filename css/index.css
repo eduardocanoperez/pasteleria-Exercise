@@ -13,10 +13,10 @@ body {
 header {
     min-width: 320px;
 }
-section {
+.section-left {
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .section-right {
@@ -44,7 +44,7 @@ nav {
     height: 35px;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-right: 70px;
+    margin-left: 27px;
     border-radius: 5px;
 }
 .nav-button__tema {
@@ -129,11 +129,15 @@ input {
 main
 .main-categori {
     width: 100%;
+    height: auto;
     margin-top: 10px;
 }
 main
 .main-categori
 ul {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
     list-style: none;
     display: flex;
 }
