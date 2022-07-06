@@ -47,6 +47,18 @@ nav {
     margin-left: 27px;
     border-radius: 5px;
 }
+.nav-button__menu
+a
+span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    background-image: url('/icons/manu.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .nav-button__tema {
     background-color: #A9AAE8;
     border: none;
@@ -55,6 +67,18 @@ nav {
     margin-top: 35px;
     margin-bottom: 35px;
     border-radius: 5px;
+}
+.nav-button__tema
+a
+span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    background-image: url('/icons/tema-claro.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .nav-button__notif {
     background-color: #A9AAE8;
@@ -66,6 +90,18 @@ nav {
     margin-bottom: 35px;
     border-radius: 5px;
 }
+.nav-button__notif
+a
+span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    background-image: url('/icons/notificaciones.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .nav-button__carrito {
     background-color: #A9AAE8;
     border: none;
@@ -76,6 +112,18 @@ nav {
     margin-top: 35px;
     margin-bottom: 35px;
     border-radius: 5px;
+}
+.nav-button__carrito
+a
+span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    background-image: url('/icons/carrito.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h1 {
     color: black;
